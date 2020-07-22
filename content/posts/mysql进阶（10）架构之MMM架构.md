@@ -1,5 +1,5 @@
 ---
-title: mysql 架构类问题之 MMM 架构
+title: mysql进阶（11）架构之MHA架构
 top: 1
 date: 2019-09-20 16:13:52
 tags: ["mysql"]

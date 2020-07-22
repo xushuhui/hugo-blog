@@ -1,5 +1,5 @@
 ---
-title: mysql 架构类问题之 MGR 架构
+title: mysql进阶（12）架构之MGR架构
 top: 1
 date: 2019-09-22 17:15:04
 tags: ["mysql"]
