@@ -4,6 +4,7 @@ date: 2020-03-10 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
+
 ## node新手课（8）路由
 
 ### 简介
@@ -13,6 +14,7 @@ categories: ["node"]
 #### 路由
 
 路由就是客户端的请求发送到服务端的的 url。我们打开浏览器输入 http://www.baidu.com 进入百度，这个网址就是路由。
+
 > 根据功能划分路由，把路由和数据处理分离，符合单一职责的设计原则
 
 上节课我们搭建的项目的 routes 目录就是用来存放所有路由文件。
@@ -22,15 +24,20 @@ categories: ["node"]
 路由调用控制层的方法。控制层接收前端传过来的参数，调用模型层的方法进行数据库操作，处理后返回结果给前端。
 
 入口文件 app.js 中调用了路由模块
-```
+
+``` 
 // routes
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
 ```
+
 ### 功能模块
+
 功能分为用户模块和卡片模块，我们把列表每条信息当成一个卡片。
+
 > routes/user.js
-```
+
+``` 
 const router = require('koa-router')()
 const userApi = require('../app/api/user')
 
@@ -54,8 +61,10 @@ router.get('/me', function (ctx, next) {
 
 module.exports = router
 ```
+
 > routes/index.js
-```
+
+``` 
 ...
 const indexApi = require('../app/api/index')
 //首页列表
@@ -71,10 +80,13 @@ router.post('/praise', async (ctx, next) => {
   indexApi.praise(ctx)
 })
 ```
+
 #### 接口文档
+
 https://note.youdao.com/ynoteshare1/index.html?id=ae97d2c2bc96012409533ab7679061d2&type=note
 
 ### 总结
+
 koa2 的路由就讲完了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。
 
 下节课我们讲解 nodejs 操作 mysql，继续加油吧，Let's go！

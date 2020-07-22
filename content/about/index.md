@@ -6,6 +6,6 @@ description: 现负责技术管理
 
 
 
-![扫码关注](qrcode_for_weixin.jpg)
+![扫码关注](qrcode.jpg)
 
 

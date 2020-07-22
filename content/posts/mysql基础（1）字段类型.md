@@ -53,8 +53,3 @@ categories: ["mysql"]
 |double | 8  |否 |
 |decimal | 每 4 个字节存 9 个数字，小数点占一个字节  |是 |
 
-## 欢迎扫描下方二维码，[https://www.phpst.cn](https://www.phpst.cn)，持续关注：
-
-![](https://ww1.sinaimg.cn/large/a616b9a4gy1g4xzv954a4j20760763yo.jpg)
-
-互联网工程师（id:phpstcn），我们一起学习，一起进步

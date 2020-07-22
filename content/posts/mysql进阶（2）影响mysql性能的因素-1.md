@@ -121,8 +121,4 @@ categories: ["mysql"]
 - 对多个网卡进行绑定，增强可用性和带宽
 - 尽可能进行网络隔离
 
-## 欢迎扫描下方二维码，[个人博客](https://www.phpst.cn)，持续关注：
 
-![](https://ww1.sinaimg.cn/large/a616b9a4gy1g4xzv954a4j20760763yo.jpg)
-
-互联网工程师（id:phpstcn），我们一起学习，一起进步

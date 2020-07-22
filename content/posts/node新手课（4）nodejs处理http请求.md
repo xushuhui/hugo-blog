@@ -4,6 +4,7 @@ date: 2020-02-01 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
+
 ## node新手课（4）nodejs处理http请求
 
 ### 简介
@@ -12,20 +13,22 @@ categories: ["node"]
 
 我们先新建个 http-test 目录，该目录主要是用做测试 nodejs 代码，现在切换到这个目录
 
-```
+``` 
 $ mkdir http-test
 $ cd http-test/
 ```
 
 #### get 请求
 
-- 客户端向服务端获取数据，如查询用户信息
-- 通过 querystring 传递数据，如 a.html?id=1&status=1
-- 浏览器输入网址直接访问，就是发送 get 请求
+* 客户端向服务端获取数据，如查询用户信息
+* 通过 querystring 传递数据，如 a.html?id=1&status=1
+* 浏览器输入网址直接访问，就是发送 get 请求
 
 ##### 代码示例
+
 我们新建个 get.js 文件，编辑以下内容。
-```
+
+``` 
 const http = require("http")
 const querystring = require('querystring')
 
@@ -39,9 +42,10 @@ http.createServer((request,response)=>{
 
 console.log('Server running at http://127.0.0.1:3000/');
 ```
+
 启动 get.js
 
-```
+``` 
 $ node get.js
 Server running at http://127.0.0.1:3000/
 ```
@@ -55,14 +59,14 @@ Server running at http://127.0.0.1:3000/
 
 #### post 请求
 
-- 客户端向服务端发送数据，如用户注册
-- 浏览器无法直接模拟 post 请求，需要写 js 代码或通过接口测试工具，比如 postman
+* 客户端向服务端发送数据，如用户注册
+* 浏览器无法直接模拟 post 请求，需要写 js 代码或通过接口测试工具，比如 postman
 
 我们新建个 post.js 文件，编辑以下内容。
 
 ##### 代码示例
 
-```
+``` 
 const http = require("http")
 
 http.createServer((request,response)=>{
@@ -87,9 +91,10 @@ http.createServer((request,response)=>{
 
 console.log('Server running at http://127.0.0.1:3000/');
 ```
+
 启动 post.js
 
-```
+``` 
 $ node post.js
 Server running at http://127.0.0.1:3000/
 ```
@@ -104,7 +109,7 @@ Server running at http://127.0.0.1:3000/
 
 现在综合处理 get 和 post 请求，新建个 http.js，编辑以下内容。
 
-```
+``` 
 const http = require("http")
 const querystring = require('querystring')
 
@@ -137,13 +142,16 @@ http.createServer((request,response)=>{
 
 console.log('Server running at http://127.0.0.1:3000/');
 ```
+
 启动 http.js
 
-```
+``` 
 $ node post.js
 Server running at http://127.0.0.1:3000/
 ```
+
 现在不管是 get 请求还是 post 请求，我们都可以处理了。
+
 ### 总结
 
 今天的内容你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。

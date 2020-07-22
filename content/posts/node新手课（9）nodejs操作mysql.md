@@ -8,9 +8,11 @@ categories: ["node"]
 ## node新手课（9）nodejs操作mysql
 
 ### 简介
+
 上节课我们讲了 koa2 的路由，今天我们来讲解 nodejs 操作 mysql
 
 ### 导入 sql 文件
+
 sql 文件地址
 https://github.com/guojiangclub/sir-node/blob/master/sir.sql
 
@@ -24,8 +26,10 @@ https://github.com/guojiangclub/sir-node/blob/master/sir.sql
 ![](https://cdn.guojiang.club/FhTvIFpFIi4U2w9Wr8tRwMALGRz6)
 
 ### mysql 测试
+
 新建 mysql-test 目录，新建 index.js
-```
+
+``` 
 const mysql = require('mysql')
 
 // 创建链接对象
@@ -53,23 +57,31 @@ con.query(sql, (err, result) => {
 // 关闭连接
  con.end()
 ```
+
 执行如下操作
 
-```
+``` 
 $ cd mysql-test/
 $ npm init -y
 $ npm i mysql --save
 $ node index.js
 ```
+
 打开 sir 数据库，查看 test 表，现在已经新增了一条记录。
+
 ### 项目添加 mysql 包
+
 在 sir-koa 目录执行
-```
+
+``` 
 $ npm i mysql --save
 ```
+
 在 sir-koa 目录下新建 config 目录，用来存放所有项目配置文件。
+
 > config/mysql.js
-```
+
+``` 
 const Config = {
     host     : 'localhost',
     user     : '数据库用户名',
@@ -82,9 +94,12 @@ module.exports= {
     Config
 }
 ```
+
 model 目录中新建 mysql.js，用来在项目中调用 mysql
+
 > model/mysql.js
-```
+
+``` 
 const mysql = require('mysql')
 const { Config } = require('../../config/mysql')
 
@@ -113,7 +128,9 @@ module.exports = {
     escape: mysql.escape
 }
 ```
+
 ### 总结
+
 nodejs 操作 mysql 就讲完了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。
 
 下节课我们讲解微信小程序注册和登录，继续加油吧，Let's go！

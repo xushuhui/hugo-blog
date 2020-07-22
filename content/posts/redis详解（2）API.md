@@ -254,8 +254,3 @@ sadd+sinter=social graph
 |zremrangebyrank key start end|删除指定排名内的升序元素|O(logN+m)|
 |zremrangebyscore key minScore maxScore|删除指定分数内的升序元素|O(logN+m)|
 
-## 欢迎扫描下方二维码，[个人博客](https://www.phpst.cn)，持续关注：
-
-![](https://ww1.sinaimg.cn/large/a616b9a4gy1g4xzv954a4j20760763yo.jpg)
-
-互联网工程师（id:phpstcn），我们一起学习，一起进步

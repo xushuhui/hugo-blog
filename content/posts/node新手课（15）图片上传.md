@@ -4,20 +4,30 @@ date: 2020-05-15 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
+
 ## node新手课（15）图片上传
 
 ### 简介
+
 上节课我们讲了修改用户信息功能，今天我们来讲图片上传。
+
 ### 需求
+
 用户在打卡功能中，选择图片上传。类似微信发朋友圈的功能。
+
 ### 功能流程
+
 安装koa-body包，用来接收图片上传的文件流。然后保存到public目录。
+
 ### 代码
-```
+
+``` 
 $ npm i koa-body --save
 ```
->app.js
-```
+
+> app.js
+
+``` 
 const koaBody = require('koa-body');
 
 app.use(koaBody({
@@ -27,14 +37,18 @@ app.use(koaBody({
     }
 }));
 ```
->routes/index.js
-```
+
+> routes/index.js
+
+``` 
 router.post('/upload', async (ctx, next) => {
   return indexApi.upload(ctx)
 })
 ```
->api/index.js
-```
+
+> api/index.js
+
+``` 
   const file = ctx.request.files.file;
     const fileName = file.name;
     // 创建可读流
@@ -55,10 +69,12 @@ router.post('/upload', async (ctx, next) => {
 ```
 
 ### 运行
-```
+
+``` 
 POST http://localhost:3000/upload
 ```
-```
+
+``` 
 {
     "message": "OK",
     "data": {
@@ -66,7 +82,9 @@ POST http://localhost:3000/upload
     }
 }
 ```
+
 ### 总结
+
 图片上传就讲完了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。
 
 下节课我们讲解打卡，继续加油吧，Let's go！

@@ -4,47 +4,64 @@ date: 2020-06-17 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
+
 ## node新手课（18）首页列表
 
 ### 简介
+
 上节课我们讲了点赞，今天我们来讲查询首页列表。
+
 ### 需求
+
 用户打卡小程序的首页就以列表的形式展示所有用户打卡发布的图片和内容。用户可以点赞某一条打卡。
+
 ### 功能流程
+
 查询数据库中card表的所有记录，后期可以扩展加入分页或分类、标签等功能。
+
 ### 代码
->routes/index.js
-```
+
+> routes/index.js
+
+``` 
 router.get('/card', async (ctx, next) => {
   return indexApi.getCard(ctx)
 })
 ```
->api/index.js
-```
+
+> api/index.js
+
+``` 
 const getCard = async(ctx) => {
     const list = await cardModel.getCards()
     ctx.body = resp.setData(list)
     return
 }
 ```
->model/cardmodel.js
-```
+
+> model/cardmodel.js
+
+``` 
 const getCards = async()=>{
-    let sql = "select id,content,image from `card`"
+    let sql = "select id,content,image from `card` "
     const res = await mysql.exec(sql) 
     return res
 }
 ```
+
 ### 运行
-```
+
+``` 
 POST http://localhost:3000/card
 
 {
     "content":"content"
 }
 ```
+
 响应数据
-```
+
+``` 
 {
     "message": "OK",
     "data": [
@@ -61,7 +78,9 @@ POST http://localhost:3000/card
     ]
 }
 ```
+
 ### 总结
+
 查询首页列表就讲完了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。
 
 下节课我们讲解项目部署上线，继续加油吧，Let's go！

@@ -25,7 +25,7 @@ DoraCMS 是基于 Nodejs+eggjs+mongodb 编写的一套内容管理系统，结�
 
 #### 说明
 
-技术栈：```nodejs 12 + eggjs 2 +  vue-cli + mongodb 4+```
+技术栈：`` `nodejs 12 + eggjs 2 +  vue-cli + mongodb 4+` ``
 
 文档： https://www.doracms.com/
 
@@ -48,6 +48,3 @@ API： https://www.html-js.cn/static/apidoc/index.html
 从前端页面到数据接口，前端工程师直接上手完成，开拓了我们的职业边界，提升了竞争力。
 
 迄今为止，它在github已经有了2500多个star，当前最新版本是2.1.6，作者也一直在更新和维护代码。推荐大家开发CMS的时候使用，Let's go !
-
-
-

@@ -4,25 +4,26 @@ date: 2020-02-10 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
+
 ## node新手课（5）callback-promise和async-await
 
 ### 简介
 
-上节课我们讲解了 nodejs 处理 http 请求，今天我们讲下 callback,promise 和 async,await
+上节课我们讲解了 nodejs 处理 http 请求，今天我们讲下 callback, promise 和 async, await
 
 #### callback
 
 js 代码处理逻辑都是异步，会造成 callback 层层嵌套。简称：回调地狱，非常不好维护，我们举例说明下
 我们在 sir-node 中新建个目录 callback-test, 里面新建个 callback.js
 
-```
+``` 
 $ mkdir callback-test && cd callback-test/
 $ touch callback.js
 ```
 
 callback.js
 
-```
+``` 
 const fs = require('fs')
 const path  = require('path')
 //callback 方式获取文件内容
@@ -48,9 +49,9 @@ getFile('a.json',aData=>{
 })
 ```
 
-再新建 3 个文件 a.json,b.json,c.json，内容如下
+再新建 3 个文件 a.json, b.json, c.json，内容如下
 
-```
+``` 
 a.json
 
 {"next":"b.json"}
@@ -64,7 +65,7 @@ c.json
 {"next":"test"}
 ```
 
-```
+``` 
 $ node callback.js
 aData { next: 'b.json' }
 bData { next: 'c.json' }
@@ -78,7 +79,7 @@ cData { next: 'test' }
 
 新建个 promise.js 文件，代码如下
 
-```
+``` 
 const fs = require('fs')
 const path  = require('path')
 //promise 方式获取文件内容
@@ -113,7 +114,7 @@ getFile('a.json').then(aData=>{
 
 新建个 async.js 文件，代码如下
 
-```
+``` 
 const fs = require('fs')
 const path  = require('path')
 //promise 方式获取文件内容
@@ -146,6 +147,6 @@ async 和 await 也是基于 promise 的，代码写法和同步一样了。
 
 ### 总结
 
-今天我们讲了 callback,promise 和 async,await。你掌握了吗？在项目中我们使用的 koa2 框架完全支持 async 和 await。
+今天我们讲了 callback, promise 和 async, await。你掌握了吗？在项目中我们使用的 koa2 框架完全支持 async 和 await。
 有问题欢迎到群里和志同道合的小伙伴一起交流。
 下节课我们介绍项目功能和技术架构，继续加油吧，Let's go！

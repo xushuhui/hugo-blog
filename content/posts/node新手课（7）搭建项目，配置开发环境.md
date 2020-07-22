@@ -4,6 +4,7 @@ date: 2020-02-25 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
+
 ## node新手课（7）搭建项目，配置开发环境
 
 ### 简介
@@ -23,7 +24,7 @@ categories: ["node"]
 
 ##### 安装
 
-```
+``` 
 $ npm install koa-generator -g
 $ Koa2 sir-koa
 $ cd sir-koa && npm install
@@ -54,16 +55,18 @@ sir-koa
 ~~~
 我们先安装 nodemon 包
 
-```
+``` 
 $ npm i -g nodemon
 ```
 
 现在我们启动项目
 
-```
+``` 
 $ npm run dev
 ```
-打开浏览器，输入```http://localhost:3000/```，项目就启动了。
+
+打开浏览器，输入`` `http://localhost:3000/` ``，项目就启动了。
+
 #### mysql
 
 地址：https://dev.mysql.com/downloads/mysql/
@@ -82,7 +85,7 @@ $ npm run dev
 
 ##### 安装
 
-```
+``` 
 
 $ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 $ rpm -ivh mysql-community-release-el7-5.noarch.rpm
@@ -92,20 +95,20 @@ $ yum install mysql-server
 
 ##### 设置权限和初始化
 
-```
+``` 
 $ chown mysql:mysql -R /var/lib/mysql
 $ mysqld --initialize
 ```
 
 ##### 启动 mysql
 
-```
+``` 
 $ systemctl start mysqld
 ```
 
 ##### 连接 mysql
 
-```
+``` 
 $ mysql
 
 mysql> SHOW DATABASES;
@@ -120,16 +123,21 @@ mysql> SHOW DATABASES;
 ```
 
 以上命令执行后会输出 mysql > 提示符，这说明你已经成功连接到 Mysql 服务器上，你可以在 mysql> 提示符执行 SQL 命令。
+
 #### redis
+
 ##### 安装和配置
 以 centos 为例，我们直接通过 yum 安装 redis。
-```
+
+``` 
 $ yum install redis
 $ vim /etc/redis.conf
 //把 daemonize no 改成 daemonize yes
 $ redis-server /etc/redis.conf
 ```
+
 现在 redis 就成功启动了
+
 ### 总结
 
 搭建项目架构就已经完成了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。

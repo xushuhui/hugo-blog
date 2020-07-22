@@ -37,8 +37,3 @@ getattr(object, name[, default])
 - name -- 字符串，对象属性。
 - default -- 默认返回值，如果不提供该参数，在没有对应属性时，将触发 AttributeError。
 
-## 欢迎扫描下方二维码，[个人博客](https://www.phpst.cn)，持续关注：
-
-![](https://ww1.sinaimg.cn/large/a616b9a4gy1g4xzv954a4j20760763yo.jpg)
-
-互联网工程师（id:phpstcn），我们一起学习，一起进步
