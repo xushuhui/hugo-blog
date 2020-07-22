@@ -1,5 +1,5 @@
 ---
-title: node开发cms
+title: node新手课（9）nodejs操作mysql
 date: 2020-03-17 07:57:34
 tags: ["node"]
 categories: ["node"]

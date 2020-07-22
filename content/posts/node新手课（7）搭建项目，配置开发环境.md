@@ -1,5 +1,5 @@
 ---
-title: node开发cms
+title: node新手课（7）搭建项目，配置开发环境
 date: 2020-02-25 07:57:34
 tags: ["node"]
 categories: ["node"]
