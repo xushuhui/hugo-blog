@@ -1,6 +1,6 @@
 baseURL = "http://blog.phpst.cn"
 languageCode = "zh-CN"
-title = "徐曙辉的博客"
+title = "徐曙辉个人博客"
 theme = "maupassant"
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
@@ -30,3 +30,9 @@ hasCJKLanguage =  true
     name = "关于"
     url = "/about/"
     weight = 4
+
+[params.utteranc]
+  enable = true
+  repo = "xushuhui/hugo-comment"
+  issueTerm = "pathname"
+  theme = "github-light"
