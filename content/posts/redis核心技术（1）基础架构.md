@@ -1,6 +1,6 @@
 ---
 title: "redis核心技术（1）基础架构"
-date: 2020-09-10T14:44:08+08:00
+date: 2020-08-10T14:44:08+08:00
 tags: ["redis","NoSQL"]
 categories: ["redis"]
 ---
