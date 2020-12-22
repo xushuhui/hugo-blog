@@ -1,19 +1,19 @@
-### 加减乘除操作
+### 前言
 
 ``` 
-public class MathCalc {
+public class Math {
     public static void main(String[] args) {
-        System.out.println(5 + 6);
-        System.out.println(5 - 6);
-        System.out.println(5 * 6);
-        System.out.println(5 / 6.0);
+        System.out.println(1 + 2);
+        System.out.println(2 - 1);
+        System.out.println(2 * 1);
+        System.out.println(2 / 1.0);
 
-        System.out.println(1 + 2 * 3 / 4.0 + (5 + 6) / 7.0);
+        System.out.println(1 + 2 * 2 / 4.0 + (5 + 6) / 3.0);
     }
 }
 ```
 
-### 变量操作
+#### 变量操作
 
 ``` 
 public class Variable1 {
@@ -30,11 +30,11 @@ public class Variable1 {
 }
 ```
 
-### int
+#### int
 
 int 用来表示一个整数，取值范围在 -2^31~2^31-1。计算出来-2147483648~22147483647
 
-### Java 标识符
+#### Java 标识符
 
 Java 所有的组成部分都需要名字。类名、变量名以及方法名都被称为标识符。
 
@@ -46,17 +46,17 @@ Java 所有的组成部分都需要名字。类名、变量名以及方法名都
 合法标识符举例：age、$salary、_value、__1_value
 非法标识符举例：123abc、-salary
 
-### Java 关键字
+#### Java 关键字
 
 下面列出了 Java 关键字。这些保留字不能用于常量、变量、和任何标识符的名称。
 
-### 表达式、语句和代码块
+#### 表达式、语句和代码块
 
 * 表达式（experssion）: Java中最基本的一个运算。比如一个加法运算表达式。1+2是一个表达式。
 * 语句：类似平常说话的一句话，由表达式组成，以；结束。int a = 3; y = a + 9; System.out.println(y); 都是语句
 * 代码块：一对大括号括起来的就是一个代码块
 
-### 区分大小写
+#### 区分大小写
 
 * 关键字和标示符都是区分大小写的
 * 类名必须与文件名一致，包括大小写要求
@@ -64,3 +64,4 @@ Java 所有的组成部分都需要名字。类名、变量名以及方法名都
 * 方法名也区分大小写。main和Main是两个名字
 * 类型也区分大小写。int是数据类型lnt则不是
 * System.out.printIn可以被Java认识，SYSTEM. Out. Println就不可以
+### 总结

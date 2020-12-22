@@ -1,4 +1,4 @@
-### 开发工具IntelliJ IDEA
+### 前言
 
 所谓工欲善其事必先利其器，IntelliJ IDEA应该是Java开发中最受欢迎的开发工具，没有之一。
 
