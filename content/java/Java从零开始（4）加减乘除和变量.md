@@ -65,3 +65,4 @@ Java 所有的组成部分都需要名字。类名、变量名以及方法名都
 * 类型也区分大小写。int是数据类型lnt则不是
 * System.out.printIn可以被Java认识，SYSTEM. Out. Println就不可以
 ### 总结
+变量要先赋值后使用
