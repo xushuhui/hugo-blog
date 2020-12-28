@@ -48,11 +48,11 @@ public static void main（String [] args）
 
 ```
 
-public：因此JVM可以从任何地方执行该方法。
+public：JVM可以从任何地方执行该方法。
 
-Static：主要方法被调用没有对象。
+static：主要方法被调用没有对象。
 
-公共和静态的修饰符可以按任意顺序编写。
+public和static的修饰符可以按任意顺序编写。
 
 void：主要方法不返回任何东西。
 
@@ -60,7 +60,6 @@ main（）：方法是您的应用程序的入口点，随后将调用程序所�
 
 String []：主要方法接受一个参数，一个String类型的元素数组。
 
-下一行代码显示在这里。注意它发生在main（）内部。
 ```
 System.out.println（"Hello World"）;
 ```

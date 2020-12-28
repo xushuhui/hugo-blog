@@ -13,30 +13,91 @@
 * 小数也可以取模
 
  整数的除法运算
-int除以int还是int，不会变成浮点数
+
+> int除以int还是int，不会变成浮点数
+
+``` 
+public class ModCalc {
+    public static void main(String[] args) {
+        int num = 10;
+
+        System.out.println(num % 2);
+        System.out.println(num % -3);
+        System.out.println(num % 4);
+        System.out.println(num % 5);
+        System.out.println(num % -6);
+    }
+}
+```
 
 #### 比较运算符 
 
->  
-> =
+\> 、> =、<、<=、!=、==
 
-<
-<=
-!=
-==
+``` 
+public class CompareOprt {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 15;
+        int c = 10;
+
+        System.out.println(a > b);
+        System.out.println(a >= b);
+        System.out.println(a < b);
+        System.out.println(a <= b);
+        System.out.println(a != b);
+
+        System.out.println(a != c);
+        System.out.println(a >= c);
+        System.out.println(a <= c);
+        System.out.println(a == b);
+        System.out.println(a == c);
+
+    }
+}
+```
 
 #### 布尔运算符
 
-* ！叫做非运算符，not运算符 - !true是false, !false是true. 
+* ！叫做非运算符，not运算符。 !true是false, !false是true. 
+* &叫且算符，and运算符。true&true是true，true&false是false. 
+* &&叫做且目运算符。andand运算符。运算结果和&一样-  
+* |叫做或运算符，or运算符。true|false是true，false丨false是false，true|true是true
+*  ||叫做或或运算符，oror运算符， 运算结果和|一样
 
-* &叫且算符，and运算符- true&true是true，true&false是false. 
-* &&叫做且目运算符，andand运算符。运算结果和&一样-  
-* |叫做或运算符，or运算符- true|false是true，false丨false是false，true|true是true
-*  ||叫做或或运算符，oror运算符- 运算结果和|一样
+```Java
+public class BooleanOprt {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+
+        System.out.println(a && b);
+        System.out.println(a & b);
+        System.out.println(a || b);
+        System.out.println(a | b);
+
+        System.out.println(a || (10 / 0 > 1));
+        System.out.println(a | (10 / 0 > 1));
+
+    }
+}
+```
 
 #### 小括号运算符
 
 小括号运算符内可以包含任何运算符，决定运算符的顺序
+
+``` 
+public class ParentOprt {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 88;
+        boolean c = ((a + b) * a - 9 * (a + b)) == (a + b);
+
+        System.out.println(c);
+    }
+}
+```
 
 #### 运算符优先级
 
@@ -44,11 +105,26 @@ int除以int还是int，不会变成浮点数
 2. !
 3. *, /, %
 4. +, -
-5. > , >=, <, <=
+5. \> , >=, <, <=
 6. ==
 7. !=
 8. &&, &, ||, |
 9. =
+
+``` 
+public class PriorityExample {
+    public static void main(String[] args) {
+        int a = 1 + 3;
+        int b = 2;
+        boolean both = a > 0 && b > 0;
+        System.out.println(both);
+
+        boolean result = a < b + 5;
+        System.out.println(result);
+
+    }
+}
+```
 
 #### 思考
 
@@ -73,24 +149,67 @@ int除以int还是int，不会变成浮点数
 
 * 按位并（AND）：&
 * 按位或（OR）: |
-
 * 按位异或（XOR）: ^
 * 按位取反：~
 * 掩码（MASK）
 
+``` 
+public class BitCalc {
+    public static void main(String[] args) {
+        int a = 0xF8;
+        int b = 0xF4;
+        int c = 0xFF;
+        System.out.println(a & b);
+        System.out.println(a | b);
+        System.out.println(a ^ b);
+
+        System.out.println(~c);
+    }
+}
+```
+
 #### 位移运算符
 
-* >>：符号位不动，其余位右移，符号位后边补0，又称带符号右移
-* >>>：符号位一起右移，左边补0，又称无符号右移
+* \>>：符号位不动，其余位右移，符号位后边补0，又称带符号右移
+* \>>>：符号位一起右移，左边补0，又称无符号右移
 * <<：左移，右边补0。左移没有带符号位一说，因为符号位在最左侧
 
-高效除以2
+``` 
+public class BitShift {
+    public static void main(String[] args) {
+        int a = 0x400;
+        System.out.println(a);
+        System.out.println(a >> 1);
+        System.out.println(a >> 2);
+
+        System.out.println(a << 1);
+        System.out.println(a << 2);
+
+        int b = -0x400;
+        System.out.println(b);
+        System.out.println(b >> 1);
+        System.out.println(b >> 2);
+
+        System.out.println(b << 1);
+        System.out.println(b << 2);
+
+        System.out.println(b >>> 1);
+        System.out.println(b >>> 2);
+
+    }
+}
+```
 
 #### 计算并赋值运算符
 
 * 作用是让代码更简洁，a=a+10简化a+=10
+* +=、-=、 /=、 *=、 %=、 &=、^=、 |=、 <<=、 >>=、 >>>=
 
 ### 总结
 
 按位运算符不会改变原本的变量的值
 位移运算符不会改变原本的变量的值
+
+#### 作业
+- 任意两个数作为除数和被除数，用取模运算符计算出余数
+- 被除数不断加一的时候计算余数

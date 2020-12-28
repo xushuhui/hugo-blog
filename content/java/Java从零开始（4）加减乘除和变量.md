@@ -1,6 +1,11 @@
 ### 前言
 
+#### 加减乘除
+
+int 用来表示一个整数，取值范围在 -2^31~2^31-1。计算出来-2147483648~22147483647
+我们先从加减乘除四则运算开始
 ``` 
+
 public class Math {
     public static void main(String[] args) {
         System.out.println(1 + 2);
@@ -14,8 +19,9 @@ public class Math {
 ```
 
 #### 变量操作
-
+如果每次都在代码中写一个数字去运算就太麻烦了，因此我们引入变量的概念，变量是用来存储数据的一个标识，有了变量我们就不用多次写一个数字了，用变量指代。
 ``` 
+
 public class Variable1 {
     public static void main(String[] args) {
         int a = 1; 
@@ -29,10 +35,6 @@ public class Variable1 {
     }
 }
 ```
-
-#### int
-
-int 用来表示一个整数，取值范围在 -2^31~2^31-1。计算出来-2147483648~22147483647
 
 #### Java 标识符
 
@@ -64,5 +66,12 @@ Java 所有的组成部分都需要名字。类名、变量名以及方法名都
 * 方法名也区分大小写。main和Main是两个名字
 * 类型也区分大小写。int是数据类型lnt则不是
 * System.out.printIn可以被Java认识，SYSTEM. Out. Println就不可以
+
 ### 总结
+
+#### 思考
+
 变量要先赋值后使用
+
+* 不给变量赋值代表什么？
+* 不赋值就使用会怎么样？
