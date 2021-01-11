@@ -38,7 +38,8 @@ while( 条件表达式 ) {
   //循环体
 }
 ```
-条件表达式为 true，循环就会一直执行下去。为false，循环结束
+- 条件表达式为 true，循环就会一直执行下去。为false，循环结束。
+- while循环体中可以嵌套其他语句，包括while语句，for语句，if-else语句等。
 
 ##### 实例
 ```
@@ -53,6 +54,32 @@ public class Test {
    }
 }
 ```
+#### do-while
+do-while语句至少执行一次
+```
+do{
+ //循环体
+}while( 条件表达式 ) 
+```
+条件表达式在循环体的后面，所以语句块在检测表达式之前已经执行了。 
+如果表达式的值为 true，则语句块一直执行，直到表达式的值为 false。
+##### 实例
+```
+public class Test {
+   public static void main(String args[]){
+      int x = 10;
+ 
+      do{
+         System.out.print("value of x : " + x );
+         x++;
+         System.out.print("\n");
+      }while( x < 20 );
+   }
+}
+```
+#### 死循环
+死循环是无法结束的循环。
+死循环是因为没有设置好循环结束的条件，要充分考虑边界情况。
 ### 总结
 #### 作业
 - 用循环语句重写“找到可以被整除的数”
