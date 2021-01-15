@@ -1,5 +1,118 @@
-### 前言
+### 作业解答
+- 找到可以被整除的数
+#### 程序中的知识点
+- 取模运算：整数的取模运算
+- 布尔运算：==操作符
+- 自增运算：
 
+```Java
+public class FindDiv {
+    public static void main(String[] args) {
+        int dividend = 35;
+        int divisor = 9;
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+        System.out.println(dividend + "可以整除" + divisor + "吗？" + ((dividend++) % divisor == 0));
+    }
+}
+```
 ### 字符集和编码介绍
 
 #### 什么是字符集（Charset）

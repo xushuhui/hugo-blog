@@ -1,4 +1,29 @@
-### 前言
+### 作业解答
+- 用循环语句重写“找到可以被整除的数”
+```
+public class CalcDivBreak {
+    public static void main(String[] args) {
+        int dividend = 100;
+        int divisor = 3;
+
+        int foundCount = 0;
+        int toBeFound = 5;
+        for (int i = 0; i < 100; i++) {
+            if (dividend % divisor == 0) {
+                System.out.println(dividend + "可以整除" + divisor + "。商为" + dividend / divisor);
+                foundCount++;
+            }
+            dividend++;
+
+            if (foundCount >= toBeFound) {
+                break;
+            }
+        }
+        System.out.println("总共找到" + foundCount + "个可以整除" + divisor + "的数。");
+    }
+}
+```
+- 用循环语句重写“打印26个连续的字符”
 
 ### 数组
 
@@ -33,14 +58,7 @@ public class CreateArray {
 }
 ```
 
-### 作业
 
-#### 创建数组表示6门课成绩
-
-* 创建一个大小为6的double类型数组代表分数
-* 创建一个大小为6的String类型数组代表科目
-* 为每门课创建一个int变量，值是这门课的成绩对应的数组的索引，以便操作每门课的成绩和名字
-* 计算最高成绩
 
 ### 变量
 
@@ -66,4 +84,11 @@ public class CreateArray {
 - 数组变量可以指向新的数组实体，这时候数组变量的值就是新数组实体的地址，这种数组变量的赋值操作，可以让变量指向新的数组。
 - 如果没有别的数组变量指向原来的数组实体，那么原谅的数组实体不能访问
 - 对应非基本类型变量，计算机要通过“两级跳”的方式访问，基本类型变量一跳就可以
-### 总结
+### 作业
+
+#### 创建数组表示6门课成绩
+
+* 创建一个大小为6的double类型数组代表分数
+* 创建一个大小为6的String类型数组代表科目
+* 为每门课创建一个int变量，值是这门课的成绩对应的数组的索引，以便操作每门课的成绩和名字
+* 计算最高成绩
