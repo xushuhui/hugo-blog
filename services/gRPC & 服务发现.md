@@ -44,6 +44,7 @@ gRPC 有一个标准的健康检测协议，在 gRPC 的所有语言实现中基
 - 注册的事件延迟
 - 注销的事件延迟
 
+**server启动时需要互相加载**
 通过 Family(appid) 和 Addr(IP:Port) 定位实例，除此之外还可以附加更多的元数据：权重、染色标签、集群等。
 > appid: 使用三段式命名，business.service.xxx
 
