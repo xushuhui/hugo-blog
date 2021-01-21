@@ -10,41 +10,41 @@ categories: ["redis"]
 
 ### 手动故障转移
 
-* 指定一个slave执行slave of no one
-* 指定其他slave执行slave of new master
-* 客户端连接新master
+* 指定一个 slave 执行 slave of no one
+* 指定其他 slave 执行 slave of new master
+* 客户端连接新 master
 
 ### 写能力和存储能力受限
 
 ## 架构说明
 
-### redis sentinel故障转移
+### redis sentinel 故障转移
 
-* 多个sentinel发现并确认master有问题
-* 选举出一个sentinel作为领导
-* 选出一个slave作为master
-* 通知其余slave成为新master的slave
+* 多个 sentinel 发现并确认 master 有问题
+* 选举出一个 sentinel 作为领导
+* 选出一个 slave 作为 master
+* 通知其余 slave 成为新 master 的 slave
 * 通知客户端主从变化
-* 等待老的master复活成为新master的slave
+* 等待老的 master 复活成为新 master 的 slave
 
 ## 安装配置
 
 * 配置开启主从节点
-* 配置开启sentinel监控主节点
+* 配置开启 sentinel 监控主节点
 * 实际情况多机器部署
 * 详细配置节点
 
-### redis主节点
+### redis 主节点
 
 #### 启动
 
-``` 
+```
 redis-server redis-7000.conf
 ```
 
 #### 配置
 
-``` 
+```
 port 7000
 daemonize yes
 pidfile /var/run/redis-7000.pid
@@ -52,18 +52,18 @@ logfile "7000.log"
 dir "opt/soft/redis/data"
 ```
 
-### redis从节点
+### redis 从节点
 
 #### 启动
 
-``` 
+```
 redis-server redis-7001.conf
 redis-server redis-7002.conf
 ```
 
 #### 配置
 
-``` 
+```
 port 7001
 daemonize yes
 pidfile /var/run/redis-7001.pid
@@ -79,9 +79,9 @@ dir "opt/soft/redis/data"
 slaveof 127.0.0.1 7000
 ```
 
-### redis sentinel主要配置
+### redis sentinel 主要配置
 
-``` 
+```
 port ${port}
 dir "opt/soft/redis/data"
 logfile "${port}.log"

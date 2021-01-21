@@ -1,5 +1,5 @@
 ---
-title: "redis核心技术（1）基础架构"
+title: "redis 核心技术（1）基础架构"
 date: 2020-08-10T14:44:08+08:00
 tags: ["redis","NoSQL"]
 categories: ["redis"]
@@ -35,8 +35,8 @@ Redis 通过索引找到一个 key 所对应的 value 后，仍然需要从 valu
 
 ![image](https://tva1.sinaimg.cn/large/a616b9a4gy1gill5foskyj243r2rie82.jpg)
 
-1、访问模块接收到客户端的socket通信，得到客户端发的命令 get k1
+1、访问模块接收到客户端的 socket 通信，得到客户端发的命令 get k1
 
-2、索引模块用hash表做索引找到键k1的位置，从存储模块的各类数据结构中找到数据，返回给客户端
+2、索引模块用 hash 表做索引找到键 k1 的位置，从存储模块的各类数据结构中找到数据，返回给客户端
 
-3、如果是set和del 操作，需要分配和释放内存
+3、如果是 set 和 del 操作，需要分配和释放内存

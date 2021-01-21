@@ -1,5 +1,5 @@
 ---
-title: node新手课（3）nodejs 和 javascript 区别
+title: node 新手课（3）nodejs 和 javascript 区别
 date: 2020-01-27 07:57:34
 tags: ["node"]
 categories: ["node"]
@@ -8,6 +8,7 @@ categories: ["node"]
 ## node 新手课（3）nodejs 和 javascript 区别
 
 ### 简介
+
 上节课我们成功用开启了一个 http 服务，写了个 helloworld，今天我们讲解下 nodejs 和 javascript 区别。
 
 ### ECMAScript
@@ -21,7 +22,7 @@ categories: ["node"]
 
 ### Javascript
 
-* Javascript 由 ECMAScript 语法规范 +Web Api 组成，两者结合即可完成浏览器端的操作 
+* Javascript 由 ECMAScript 语法规范 +Web Api 组成，两者结合即可完成浏览器端的操作
 * Javascript 可以执行 DOM 操作，BOM 操作，事件绑定，Ajax 等
 
 ### Nodejs
@@ -74,6 +75,6 @@ categories: ["node"]
 
 ### 总结
 
-你了解了nodejs 和 javascript 区别，有问题欢迎到群里和志同道合的小伙伴一起交流。
+你了解了 nodejs 和 javascript 区别，有问题欢迎到群里和志同道合的小伙伴一起交流。
 
 下节课我们讲解 nodejs 处理 http 请求，继续加油吧，Let's go！

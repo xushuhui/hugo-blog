@@ -8,13 +8,13 @@ categories: ["mysql"]
 
 ## MySQL 常用日志类型
 
-|日志名称|作用|
-|--|--|
-|错误日志（error_log）|记录 mysql 在启动、运行或停止时候出现的问题|
-|常规日志（general_log）|记录所有发向 MySQL 请求|
-|慢查询日志（slow_query_log）|记录符合条件的查询|
-|二进制日志（binary_log）|记录全部有效的数据修改日志|
-|中继日志（relay_log）|用于主从复制、临时存储从主库同步的二进制日志|
+| 日志名称                     | 作用                                         |
+| ---------------------------- | -------------------------------------------- |
+| 错误日志（error_log）        | 记录 mysql 在启动、运行或停止时候出现的问题  |
+| 常规日志（general_log）      | 记录所有发向 MySQL 请求                      |
+| 慢查询日志（slow_query_log） | 记录符合条件的查询                           |
+| 二进制日志（binary_log）     | 记录全部有效的数据修改日志                   |
+| 中继日志（relay_log）        | 用于主从复制、临时存储从主库同步的二进制日志 |
 
 ## 错误日志（error_log）
 
@@ -24,20 +24,20 @@ categories: ["mysql"]
 * log_error=$mysql/sql_log/mysql-error.log
 * log_error_verbosity=[1, 2, 3]
 
-|verbosity|作用|
-|--|--|
-|1|Error messages|
-|2|Error and warning messages|
-|3|Error , warning and note messages|
+| verbosity | 作用                              |
+| --------- | --------------------------------- |
+| 1         | Error messages                    |
+| 2         | Error and warning messages        |
+| 3         | Error , warning and note messages |
 
 * log_error_services=『日志服务组件；日志服务组件』
 
-|组件名称|作用|
-|--|--|
-|log_filter_internal|默认日志过滤组件，依赖 log_error_verbosity|
-|log_sink_internal|默认日志输出组件，依赖 log_error|
-|log_sink_json|将错误日志输出到 json 文件|
-|log_sink_syseventlog|将错误日志输出到系统日志文件|
+| 组件名称             | 作用                                       |
+| -------------------- | ------------------------------------------ |
+| log_filter_internal  | 默认日志过滤组件，依赖 log_error_verbosity |
+| log_sink_internal    | 默认日志输出组件，依赖 log_error           |
+| log_sink_json        | 将错误日志输出到 json 文件                 |
+| log_sink_syseventlog | 将错误日志输出到系统日志文件               |
 
 ## 常规日志（general_log）
 

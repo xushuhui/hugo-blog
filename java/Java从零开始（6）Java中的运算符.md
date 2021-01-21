@@ -1,12 +1,12 @@
-### 前言
+## 前言
 
-* 运算符对一个或者多个值进行运算并得出一个运算结果。 - 运算符的运算结果类型有的是固定的，有时候会根据被计 算的值变化。比如两个int相加，结果的类型就是int. 两 个byte相加，返回值的类型就是byte
+* 运算符对一个或者多个值进行运算并得出一个运算结果。 - 运算符的运算结果类型有的是固定的，有时候会根据被计 算的值变化。比如两个 int 相加，结果的类型就是 int. 两 个 byte 相加，返回值的类型就是 byte
 
-* 混淆点：除赋值运算符外, 运算符本身不会更改变量的值
+* 混淆点：除赋值运算符外，运算符本身不会更改变量的值
 
-#### 取模运算符 %
+### 取模运算符 %
 
-* 用来计算余数 
+* 用来计算余数
 
 *  负数也可以被取模
 
@@ -14,9 +14,9 @@
 
  整数的除法运算
 
-> int除以int还是int，不会变成浮点数
+> int 除以 int 还是 int，不会变成浮点数
 
-``` 
+```
 public class ModCalc {
     public static void main(String[] args) {
         int num = 10;
@@ -30,11 +30,11 @@ public class ModCalc {
 }
 ```
 
-#### 比较运算符 
+### 比较运算符
 
 \> 、> =、<、<=、!=、==
 
-``` 
+```
 public class CompareOprt {
     public static void main(String[] args) {
         int a = 10;
@@ -57,13 +57,13 @@ public class CompareOprt {
 }
 ```
 
-#### 布尔运算符
+### 布尔运算符
 
-* ！叫做非运算符，not运算符。 !true是false, !false是true. 
-* &叫且算符，and运算符。true&true是true，true&false是false. 
-* &&叫做且目运算符。andand运算符。运算结果和&一样-  
-* |叫做或运算符，or运算符。true|false是true，false丨false是false，true|true是true
-*  ||叫做或或运算符，oror运算符， 运算结果和|一样
+* ！叫做非运算符，not 运算符。 !true 是 false, !false 是 true.
+* & 叫且算符，and 运算符。true&true 是 true，true&false 是 false.
+* && 叫做且目运算符。andand 运算符。运算结果和 & 一样 -
+* |叫做或运算符，or 运算符。true|false 是 true，false 丨 false 是 false，true|true 是 true
+*  ||叫做或或运算符，oror 运算符， 运算结果和|一样
 
 ```Java
 public class BooleanOprt {
@@ -83,11 +83,11 @@ public class BooleanOprt {
 }
 ```
 
-#### 小括号运算符
+### 小括号运算符
 
 小括号运算符内可以包含任何运算符，决定运算符的顺序
 
-``` 
+```
 public class ParentOprt {
     public static void main(String[] args) {
         int a = 10;
@@ -99,9 +99,9 @@ public class ParentOprt {
 }
 ```
 
-#### 运算符优先级
+### 运算符优先级
 
-1. () 
+1. ()
 2. !
 3. *, /, %
 4. +, -
@@ -111,7 +111,7 @@ public class ParentOprt {
 8. &&, &, ||, |
 9. =
 
-``` 
+```
 public class PriorityExample {
     public static void main(String[] args) {
         int a = 1 + 3;
@@ -126,26 +126,26 @@ public class PriorityExample {
 }
 ```
 
-#### 思考
+### 思考
 
 * 为什么等号的优先级最低？
 * 为什么布尔运算符的优先级低于比较运算符？
 * 为什么比较运算符的优先级比算数运算低？
 
-#### 位运算符
+### 位运算符
 
 字面值的八进制和十六进制
-以0开头的整数为八进制
+以 0 开头的整数为八进制
 
-* 05就是十进制的5
-* 011就是十进制的9
+* 05 就是十进制的 5
+* 011 就是十进制的 9
 
-以0x开头的整数位十六进制
+以 0x 开头的整数位十六进制
 
-* 0xF就是十进制的15
-* 0x11就是十进制的17
+* 0xF 就是十进制的 15
+* 0x11 就是十进制的 17
 
-#### 按位运算符
+### 按位运算符
 
 * 按位并（AND）：&
 * 按位或（OR）: |
@@ -153,7 +153,7 @@ public class PriorityExample {
 * 按位取反：~
 * 掩码（MASK）
 
-``` 
+```
 public class BitCalc {
     public static void main(String[] args) {
         int a = 0xF8;
@@ -168,13 +168,13 @@ public class BitCalc {
 }
 ```
 
-#### 位移运算符
+### 位移运算符
 
-* \>>：符号位不动，其余位右移，符号位后边补0，又称带符号右移
-* \>>>：符号位一起右移，左边补0，又称无符号右移
-* <<：左移，右边补0。左移没有带符号位一说，因为符号位在最左侧
+* \>>：符号位不动，其余位右移，符号位后边补 0，又称带符号右移
+* \>>>：符号位一起右移，左边补 0，又称无符号右移
+* <<：左移，右边补 0。左移没有带符号位一说，因为符号位在最左侧
 
-``` 
+```
 public class BitShift {
     public static void main(String[] args) {
         int a = 0x400;
@@ -200,16 +200,17 @@ public class BitShift {
 }
 ```
 
-#### 计算并赋值运算符
+### 计算并赋值运算符
 
-* 作用是让代码更简洁，a=a+10简化a+=10
+* 作用是让代码更简洁，a=a+10 简化 a+=10
 * +=、-=、 /=、 *=、 %=、 &=、^=、 |=、 <<=、 >>=、 >>>=
 
-### 总结
+## 总结
 
 按位运算符不会改变原本的变量的值
 位移运算符不会改变原本的变量的值
 
-#### 作业
+### 作业
+
 - 任意两个数作为除数和被除数，用取模运算符计算出余数
 - 被除数不断加一的时候计算余数

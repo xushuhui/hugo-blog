@@ -36,14 +36,14 @@ categories: ["mysql"]
 
 ## 什么情况下 InnoDB 无法在线修改表
 
-|操作|语法|
-|-|-|
-|加全文索引|CREATE FULTEXT INDEX name ON table(column)|
-|加空间索引|ALTER TABLE geom ADD SPATIAL INDEX(g)|
-|删除主键|ALTER TABLE tb_name DROP PRIMARY KEY|
-|增加自增列|alert table t add column id int auto_increment not null primary key|
-|修改列类型|alter table t change c1 c1 NEW_TYPE|
-|修改字符集|alter table t character set = charset_name|
+| 操作       | 语法                                                                |
+| ---------- | ------------------------------------------------------------------- |
+| 加全文索引 | CREATE FULTEXT INDEX name ON table(column)                          |
+| 加空间索引 | ALTER TABLE geom ADD SPATIAL INDEX(g)                               |
+| 删除主键   | ALTER TABLE tb_name DROP PRIMARY KEY                                |
+| 增加自增列 | alert table t add column id int auto_increment not null primary key |
+| 修改列类型 | alter table t change c1 c1 NEW_TYPE                                 |
+| 修改字符集 | alter table t character set = charset_name                          |
 
 ### 在线 DDL 存在的问题
 
@@ -59,31 +59,31 @@ categories: ["mysql"]
 
 ### 原理
 
-|特征|说明|
-|:----- |-----|
-|原子性（A）|一个事务的所有操作，或全部成功或全部失败|
-|一致性（C）|事务开始之前和事务结束只会，数据库保持完整性
-|隔离性（I）|每个读写事务的对象和其他事务的操作对象相互分离，该事务提交前对其他事务都不可见
-|持久性（D）|事务一旦提交，结果就是永久性，如果宕机也能恢复
+| 特征        | 说明                                                                           |
+| :---------- | ------------------------------------------------------------------------------ |
+| 原子性（A） | 一个事务的所有操作，或全部成功或全部失败                                       |
+| 一致性（C） | 事务开始之前和事务结束只会，数据库保持完整性                                   |
+| 隔离性（I） | 每个读写事务的对象和其他事务的操作对象相互分离，该事务提交前对其他事务都不可见 |
+| 持久性（D） | 事务一旦提交，结果就是永久性，如果宕机也能恢复                                 |
 
 ### 实现方式
 
-|特征|说明|
-|:----- |-----|
-|原子性（A）|回滚日志（Undo log）: 用于记录数据修改前的状态|
-|一致性（C）|重作日志（Redo log）: 用于记录数据修改后的状态|
-|隔离性（I）|锁：用于资源隔离，分为共享锁和排他锁|
-|持久性（D）|重作日志（Redo log）+ 回滚日志（Undo log）
+| 特征        | 说明                                           |
+| :---------- | ---------------------------------------------- |
+| 原子性（A） | 回滚日志（Undo log）: 用于记录数据修改前的状态 |
+| 一致性（C） | 重作日志（Redo log）: 用于记录数据修改后的状态 |
+| 隔离性（I） | 锁：用于资源隔离，分为共享锁和排他锁           |
+| 持久性（D） | 重作日志（Redo log）+ 回滚日志（Undo log）     |
 
 ## INNODB 锁
 
 * 查询需要对资源加共享锁（S）
 * 修改需要对资源加排他锁（X）
 
-| |排他锁|共享锁|
-|----- |----- |-----|
-|排他锁 |不兼容 |不兼容|
-|共享锁 |不兼容 |兼容|
+|        | 排他锁 | 共享锁 |
+| ------ | ------ | ------ |
+| 排他锁 | 不兼容 | 不兼容 |
+| 共享锁 | 不兼容 | 兼容   |
 
 ## MYISAM
 

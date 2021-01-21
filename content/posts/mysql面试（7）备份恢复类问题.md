@@ -14,11 +14,11 @@ categories: ["mysql"]
 
 ## 常用备份工具
 
-|名称|特点|
-|-|-|
-|mysqldump|最常用的逻辑备份工具，支持全量备份和条件备份|
-|mysqlpump|多线程逻辑备份工具，mysqldump 增强版本|
-|xtrabackup|InnoDB 在线物理备份工具，支持多线程和增量备份|
+| 名称       | 特点                                          |
+| ---------- | --------------------------------------------- |
+| mysqldump  | 最常用的逻辑备份工具，支持全量备份和条件备份  |
+| mysqlpump  | 多线程逻辑备份工具，mysqldump 增强版本        |
+| xtrabackup | InnoDB 在线物理备份工具，支持多线程和增量备份 |
 
 ## mysqldump
 

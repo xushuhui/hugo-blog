@@ -114,4 +114,3 @@ set global innodb_print_all_deadlocks=on;
 
 - 数据库自行回滚占用资源少的事务
 - 并发事务按相同顺序占用资源
-

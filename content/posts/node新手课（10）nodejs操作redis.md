@@ -1,29 +1,29 @@
 ---
-title: node新手课（10）nodejs操作redis
+title: node 新手课（10）nodejs 操作 redis
 date: 2020-03-27 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
 
-## node新手课（10）nodejs操作redis
+## node 新手课（10）nodejs 操作 redis
 
-### 简介
+## 简介
 
 上节课我们讲了 nodejs 操作 mysql，今天我们来讲解 nodejs 操作 redis
 
-### 安装 redis 包
+## 安装 redis 包
 
 在 sir-koa 目录下执行
 
-``` 
+```
 $ npm i ioredis --save
 ```
 
-### redis 配置和操作
+## redis 配置和操作
 
 > config/redis.js
 
-``` 
+```
 const Config = {
     host: "127.0.0.1", // Redis host
     port: 6379, // Redis port
@@ -37,7 +37,7 @@ exports = {
 
 > model/redis.js
 
-``` 
+```
 const ioRedis = require('ioredis');
 const { Config } = require('../../config/redis') //redis 配置
 class Redis {
@@ -65,7 +65,7 @@ module.exports = Redis;
 
 现在我们可以在项目中使用 redis 做数据缓存了。当然只是针对简单的字符串操作，你也可以拓展，加入对其他数据结构的操作方法
 
-### 总结
+## 总结
 
 nodejs 操作 redis 就讲完了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。
 

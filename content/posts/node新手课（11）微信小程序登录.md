@@ -1,16 +1,17 @@
 ---
-title: node新手课（11）微信小程序登录
+title: node 新手课（11）微信小程序登录
 date: 2020-04-07 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
 
-## node新手课（11）微信小程序登录
+## node 新手课（11）微信小程序登录
 
-### 简介
+## 简介
+
 上节课我们讲了 nodejs 操作 redis，今天我们来讲解微信小程序登录。
 
-### 代码
+## 代码
 
 微信服务端接口文档地址
 
@@ -22,15 +23,15 @@ https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/login/auth
 
 > routes/user.js
 
-``` 
+```
 router.post('/wechatlogin',function (ctx, next) {
-  return userApi.wechatLogin(ctx) 
+  return userApi.wechatLogin(ctx)
 })
 ```
 
 > config/miniapp.js
 
-``` 
+```
 const appid = ''
 const secret = ''
 
@@ -43,7 +44,7 @@ api/user.js 文件，里面写用户 api 的相关方法。model/usermodel.js �
 
 > api/user.js
 
-``` 
+```
 const miniappConfig = require('../../config/miniapp')
 const koa2Req = require('koa2-request')
 const response = require('../core/response')
@@ -85,16 +86,16 @@ const wxUser = async (code) => {
 
 > model/usermodel.js
 
-``` 
+```
 const mysql = require("./mysql")
 
 const getUserByOpenid = async(openid)=>{
     let sql = "select id from user where openid=?"
-    return await mysql.exec(sql,[openid]) 
+    return await mysql.exec(sql,[openid])
 }
 const createUser= async(openid)=>{
     let sql = "insert into `user` (openid)values(?) "
-    const insertData = await mysql.exec(sql,[openid]) 
+    const insertData = await mysql.exec(sql,[openid])
     return insertData.insertId
 }
 module.exports = {
@@ -102,9 +103,9 @@ module.exports = {
 }
 ```
 
-### 运行
+## 运行
 
-``` 
+```
 POST http://localhost:3000/user/wechatlogin
 
 {
@@ -115,7 +116,7 @@ POST http://localhost:3000/user/wechatlogin
 ![](https://cdn.guojiang.club/Fo6qftIGMQq8uM7ANRdWs9Kskow5)
 token 是客户端调用用户相关接口需要携带的凭据，服务端通过 token 识别用户身份信息，相当于 session。
 
-### 总结
+## 总结
 
 微信小程序登录就讲完了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。
 

@@ -36,4 +36,3 @@ getattr(object, name[, default])
 - object -- 对象。
 - name -- 字符串，对象属性。
 - default -- 默认返回值，如果不提供该参数，在没有对应属性时，将触发 AttributeError。
-

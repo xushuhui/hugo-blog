@@ -114,4 +114,3 @@ explain sql
 |Using temporary|使用临时表进行处理查询，常见于排序，子查询和分组查询|
 |Using where|使用 where 条件过滤数据|
 |select tables optimized away|直接通过索引获取数据，不用访问表|
-

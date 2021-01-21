@@ -29,4 +29,3 @@ categories: ["mysql"]
 - 修改系统限制（/etc/security/limits.conf）
 
 ## MySQL 配置
-

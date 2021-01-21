@@ -186,5 +186,3 @@ client 发送 bgrewriteaof 命令到 server，server fork 一个子进程执行 
 
 - redis 日志
 - info persistence 命令
-
-

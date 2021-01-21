@@ -178,5 +178,3 @@ mysql://user_name[:password]@host_name[:port]/db_name/table_name
 - 崩溃恢复
 - 存储引擎特性
 - 不要混合使用存储引擎
-
-

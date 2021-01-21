@@ -1,5 +1,5 @@
 ---
-title: node新手课（2）Hello World
+title: node 新手课（2）Hello World
 date: 2020-01-23 07:57:34
 tags: ["node"]
 categories: ["node"]
@@ -7,26 +7,26 @@ categories: ["node"]
 
 ## node 新手课（2）Hello World
 
-### 简介
+## 简介
 
 上节课我们讲解了 node 环境的搭建，按照编程语言的惯例，我们首先开始个 HelloWorld 程序。
 
-#### 创建项目
+### 创建项目
 
 创建 sir-node 文件夹，这个就是我们要开发的项目
 
-``` 
+```
 
-$ mkdir sir-node 
+$ mkdir sir-node
 $ cd sir-node
 
 ```
 
-#### 新建 hello.js
+### 新建 hello.js
 
 新建 hello.js，输入以下内容
 
-``` 
+```
 引入 Http 模块：我们可以使用 require 指令来载入 Http 模块。
 const http = require("http")
 
@@ -41,9 +41,9 @@ http.createServer((request,response)=>{
 console.log('Server running at http://127.0.0.1:3000/');
 ```
 
-#### 启动 hello.js
+### 启动 hello.js
 
-``` 
+```
 $ node hello.js
 Server running at http://127.0.0.1:3000/
 ```
@@ -52,7 +52,7 @@ Server running at http://127.0.0.1:3000/
 
 ![](https://cdn.guojiang.club/FrAGPcpWZijVONiC9237FSKpud7_)
 
-### 总结
+## 总结
 
 现在我们成功开启了一个 http 服务，写了个 helloworld。
 

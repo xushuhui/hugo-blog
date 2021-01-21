@@ -174,5 +174,3 @@ categories: ["redis"]
 - 3.2 版本后才有该功能
 - type geokey=zset
 - 删除操作 zrem key member
-
-

@@ -1,21 +1,21 @@
-### 前言
+## 前言
 
-所谓工欲善其事必先利其器，IntelliJ IDEA应该是Java开发中最受欢迎的开发工具，没有之一。
+所谓工欲善其事必先利其器，IntelliJ IDEA 应该是 Java 开发中最受欢迎的开发工具，没有之一。
 
-#### 下载
+### 下载
 
-一般都会去官网下载，官网地址 
+一般都会去官网下载，官网地址
  [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows)，官网上对于不同的操作系统（windows，macOS，Linux）都有两个版本可供下载
 
  ![](https://cdn.guojiang.club/Fkkf4jASpV3M3RR2D6IeSxqwRis7)
 
- Ultimate即为旗舰版，功能全面，插件丰富，但是收费，按年收费。如果非要比较的话类似于myEclipse。
+ Ultimate 即为旗舰版，功能全面，插件丰富，但是收费，按年收费。如果非要比较的话类似于 myEclipse。
 
-Community即为社区版，免费试用，功能相对而言不是很丰富，但是不影响开发使用。如果非要比较的话类似于eclipse，对于不想破解的开发者来说，社区版本已经足够满足日常开发需求了。
+Community 即为社区版，免费试用，功能相对而言不是很丰富，但是不影响开发使用。如果非要比较的话类似于 eclipse，对于不想破解的开发者来说，社区版本已经足够满足日常开发需求了。
 
-如果有经济实力的话还是建议购买Ultimate版使用，但是不是终身的而是一年一付；
+如果有经济实力的话还是建议购买 Ultimate 版使用，但是不是终身的而是一年一付；
 
-#### 安装
+### 安装
 
 下载好了安装包，确认已经安装好了 JDK ，双击开始安装。
 
@@ -23,12 +23,12 @@ Community即为社区版，免费试用，功能相对而言不是很丰富，�
 选择安装路径
 ![](https://cdn.guojiang.club/FskoC6rSzmLUON4cGtHp2-QjEwvh)
 
-1. 根据你的操作系统类型选择，32位或64位的桌面快捷方式。
+1. 根据你的操作系统类型选择，32 位或 64 位的桌面快捷方式。
 
-2. 选择是否根据文件后缀名关联相应的文件，例如勾选了Java以后打开java文件默认是以IDEA打开，可以不勾选。
+2. 选择是否根据文件后缀名关联相应的文件，例如勾选了 Java 以后打开 java 文件默认是以 IDEA 打开，可以不勾选。
 
 ![](https://cdn.guojiang.club/Fl7HdOSSpENXJuiH4n86yC5dS-MT)
-点击Install，就开始安装了
+点击 Install，就开始安装了
 ![](https://cdn.guojiang.club/Fq7FelcuVe3KxSHOJEJLbPLC6Ux9)
 
 目录结构
@@ -40,6 +40,6 @@ Lib：idea 依赖的类库
 License：各插件许可
 Plugin：插件
 
-#### 总结
+### 总结
 
-IntelliJ IDEA 安装完成了，后续会出针对IntelliJ IDEA操作的教程，提升开发效率。
+IntelliJ IDEA 安装完成了，后续会出针对 IntelliJ IDEA 操作的教程，提升开发效率。

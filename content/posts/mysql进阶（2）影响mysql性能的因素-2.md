@@ -75,4 +75,3 @@ noatime,nodiratime
 ```shell
 /dev/sda1/ext4 noatime,nodiratime,data=writeback 1 1
 ```
-

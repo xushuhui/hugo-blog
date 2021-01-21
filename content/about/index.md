@@ -6,6 +6,6 @@ description: 现负责技术管理
 
 
 
-![扫码关注](qrcode.jpg)
+![扫码关注](./static/qrcode.jpg)
 
 

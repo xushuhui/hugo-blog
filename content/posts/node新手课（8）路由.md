@@ -1,17 +1,17 @@
 ---
-title: node新手课（8）路由
+title: node 新手课（8）路由
 date: 2020-03-10 07:57:34
 tags: ["node"]
 categories: ["node"]
 ---
 
-## node新手课（8）路由
+## node 新手课（8）路由
 
-### 简介
+## 简介
 
 上节课我们来搭建项目架构，koa2 和 mysql。这节课我们讲解 koa2 的路由
 
-#### 路由
+### 路由
 
 路由就是客户端的请求发送到服务端的的 url。我们打开浏览器输入 http://www.baidu.com 进入百度，这个网址就是路由。
 
@@ -25,38 +25,38 @@ categories: ["node"]
 
 入口文件 app.js 中调用了路由模块
 
-``` 
+```
 // routes
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
 ```
 
-### 功能模块
+## 功能模块
 
 功能分为用户模块和卡片模块，我们把列表每条信息当成一个卡片。
 
 > routes/user.js
 
-``` 
+```
 const router = require('koa-router')()
 const userApi = require('../app/api/user')
 
 router.prefix('/user')
 //微信登录
 router.post('/wechatlogin', function (ctx, next) {
-  userApi.wechatLogin(ctx) 
+  userApi.wechatLogin(ctx)
 })
 // 手机号登录
 router.post('/login', function (ctx, next) {
-  userApi.login(ctx) 
+  userApi.login(ctx)
 })
 //更新个人信息
 router.put('/info', function (ctx, next) {
-  userApi.info(ctx) 
+  userApi.info(ctx)
 })
 //查询个人信息
 router.get('/me', function (ctx, next) {
-  userApi.me(ctx) 
+  userApi.me(ctx)
 })
 
 module.exports = router
@@ -64,7 +64,7 @@ module.exports = router
 
 > routes/index.js
 
-``` 
+```
 ...
 const indexApi = require('../app/api/index')
 //首页列表
@@ -81,11 +81,11 @@ router.post('/praise', async (ctx, next) => {
 })
 ```
 
-#### 接口文档
+### 接口文档
 
 https://note.youdao.com/ynoteshare1/index.html?id=ae97d2c2bc96012409533ab7679061d2&type=note
 
-### 总结
+## 总结
 
 koa2 的路由就讲完了，你掌握了吗？有问题欢迎到群里和志同道合的小伙伴一起交流。
 

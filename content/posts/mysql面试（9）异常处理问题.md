@@ -71,5 +71,3 @@ Slave_SQL_Running： NO
 * 找到已经正确同步的日志
 * 使用 reset skave 删除 relay_log
 * 在正确同步日志点后重新同步日志
-
-

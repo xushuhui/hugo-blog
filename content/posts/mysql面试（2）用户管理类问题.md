@@ -53,5 +53,3 @@ revoke delete on db.tb from user@ip
 ```
 pt-show-grants u=root,p=123456,h=localhost
 ```
-
-

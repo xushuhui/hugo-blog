@@ -121,4 +121,3 @@ redis-cli -h ip -p port ping
 - port 对外端口号（6379）
 - logfile 系统日志
 - dir 工作目录
-
