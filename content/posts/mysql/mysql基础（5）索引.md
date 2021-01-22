@@ -2,8 +2,8 @@
 title: mysql 基础（5）索引
 top: 1
 date: 2019-08-17 18:01:44
-tags: ["mysql"]
-categories: ["mysql"]
+tags: ["MySQL"]
+categories: ["MySQL"]
 ---
 
 ## InnoDB 支持索引类型

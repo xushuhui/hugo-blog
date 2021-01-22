@@ -1,8 +1,8 @@
 ---
-title: node 新手课（0）项目介绍
+title: Node 新手课（0）项目介绍
 date: 2020-01-07 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
 ## 简介

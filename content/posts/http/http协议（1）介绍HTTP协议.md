@@ -1,8 +1,8 @@
 ---
 title: http 协议（1）介绍 HTTP 协议
 date: 2016-07-01 13:59:58
-tags: ["http","网络协议","编程基础"]
-categories: ["http"]
+tags: ["HTTP","网络协议","编程基础"]
+categories: ["HTTP"]
 ---
 
 ## HTTP/1.1

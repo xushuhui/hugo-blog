@@ -1,11 +1,11 @@
 ---
-title: node 新手课（14）修改用户信息
+title: Node 新手课（14）修改用户信息
 date: 2020-05-07 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（14）修改用户信息
+## Node 新手课（14）修改用户信息
 
 ## 简介
 

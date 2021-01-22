@@ -1,11 +1,11 @@
 ---
-title: node 新手课（6）项目需求分析和展示
+title: Node 新手课（6）项目需求分析和展示
 date: 2020-02-15 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（6）项目需求分析和展示
+## Node 新手课（6）项目需求分析和展示
 
 ## 简介
 

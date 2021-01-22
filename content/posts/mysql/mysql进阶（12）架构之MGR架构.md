@@ -2,8 +2,8 @@
 title: mysql进阶（12）架构之MGR架构
 top: 1
 date: 2019-09-22 17:15:04
-tags: ["mysql"]
-categories: ["mysql"]
+tags: ["MySQL"]
+categories: ["MySQL"]
 ---
 
 ## MGR 复制

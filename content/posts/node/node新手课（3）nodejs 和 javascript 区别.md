@@ -1,11 +1,11 @@
 ---
-title: node 新手课（3）nodejs 和 javascript 区别
+title: Node 新手课（3）nodejs 和 javascript 区别
 date: 2020-01-27 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（3）nodejs 和 javascript 区别
+## Node 新手课（3）nodejs 和 javascript 区别
 
 ### 简介
 

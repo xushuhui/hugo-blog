@@ -1,11 +1,11 @@
 ---
-title: node 新手课（10）nodejs 操作 redis
+title: Node 新手课（10）nodejs 操作 redis
 date: 2020-03-27 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（10）nodejs 操作 redis
+## Node 新手课（10）nodejs 操作 redis
 
 ## 简介
 

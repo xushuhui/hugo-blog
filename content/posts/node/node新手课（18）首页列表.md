@@ -1,11 +1,11 @@
 ---
-title: node 新手课（18）首页列表
+title: Node 新手课（18）首页列表
 date: 2020-06-17 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（18）首页列表
+## Node 新手课（18）首页列表
 
 ## 简介
 

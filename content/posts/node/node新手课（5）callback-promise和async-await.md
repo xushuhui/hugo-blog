@@ -1,11 +1,11 @@
 ---
-title: node 新手课（5）callback-promise 和 async-await
+title: Node 新手课（5）callback-promise 和 async-await
 date: 2020-02-10 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（5）callback-promise 和 async-await
+## Node 新手课（5）callback-promise 和 async-await
 
 ## 简介
 

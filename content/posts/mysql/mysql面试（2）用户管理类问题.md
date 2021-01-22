@@ -3,7 +3,7 @@ title: mysql 面试（2）用户管理类问题
 top: 1
 date: 2019-09-10 16:04:47
 tags: ["mysql","面试"]
-categories: ["mysql"]
+categories: ["MySQL"]
 ---
 
 ## 如何定义 MySQL 数据库账号

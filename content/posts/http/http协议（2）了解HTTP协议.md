@@ -2,8 +2,8 @@
 title: http 协议（2）了解 HTTP 协议
 top: 1
 date: 2016-07-05 14:00:45
-tags: ["http","网络协议","编程基础"]
-categories: ["http"]
+tags: ["HTTP","网络协议","编程基础"]
+categories: ["HTTP"]
 ---
 
 ## 浏览器请求过程

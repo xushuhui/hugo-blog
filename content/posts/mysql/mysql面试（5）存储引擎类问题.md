@@ -3,7 +3,7 @@ title: mysql 面试（5）存储引擎类问题
 top: 1
 date: 2019-11-15 13:28:16
 tags: ["mysql","面试"]
-categories: ["mysql"]
+categories: ["MySQL"]
 ---
 
 ## MySQL 常用存储引擎

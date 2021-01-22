@@ -1,8 +1,8 @@
 ---
-title: nginx 配置 socket.io 负载均衡
+title: Nginx 配置 Socket.IO 负载均衡
 date: 2019-05-07 07:57:34
-tags: ["node","nginx"]
-categories: ["node"]
+tags: ["Node","Nginx"]
+categories: ["Node"]
 top: 0
 ---
 nginx 配置

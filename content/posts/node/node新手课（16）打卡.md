@@ -1,11 +1,11 @@
 ---
-title: node 新手课（16）打卡
+title: Node 新手课（16）打卡
 date: 2020-05-25 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（16）打卡
+## Node 新手课（16）打卡
 
 ## 简介
 

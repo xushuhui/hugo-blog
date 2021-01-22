@@ -1,8 +1,8 @@
 ---
-title: python 在类中实现 swith 功能
+title: Python 在类中实现 swith 功能
 date: 2019-03-29 14:51:12
-tags: [python]
-categories: ["python"]
+tags: [Python]
+categories: ["Python"]
 top: 0
 ---
 

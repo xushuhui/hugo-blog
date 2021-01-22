@@ -1,8 +1,8 @@
 ---
-title: node 新手课（1）nodejs 下载安装
+title: Node 新手课（1）nodejs 下载安装
 date: 2020-01-17 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
 ## 简介

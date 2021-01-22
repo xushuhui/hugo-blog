@@ -2,8 +2,8 @@
 title: mysql 优化解决方案
 top: 1
 date: 2019-10-07 13:57:48
-tags: ["mysql"]
-categories: ["mysql"]
+tags: ["MySQL"]
+categories: ["MySQL"]
 ---
 
 ## 查询优化

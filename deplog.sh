@@ -21,9 +21,9 @@ git commit -m 'deploy'
 
 #git remote add origin git@github.com:xushuhui/xushuhui.github.io.git
 #git push -u origin master
-git push -f git@github.com:xushuhui/xushuhui.github.io.git master
+# git push -f git@github.com:xushuhui/xushuhui.github.io.git master  git@e.coding.net:xushuhui/xushuhui.coding.me.git
 git push -f git@e.coding.net:xushuhui/xushuhui.coding.me.git master
-git push -f git@gitee.com:xushuhui/xushuhui.git master
+#git push -f git@gitee.com:xushuhui/xushuhui.git master
 # 如果发布到 https://<USERNAME>.github.io  USERNAME = 你的用户名 
 #git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 

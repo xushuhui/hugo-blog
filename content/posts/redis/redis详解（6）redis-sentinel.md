@@ -3,7 +3,7 @@ title: redis 详解（6）redis sentinel
 top: 1
 date: 2018-03-12 14:51:29
 tags: ["redis", "NoSQL"]
-categories: ["redis"]
+categories: ["Redis"]
 ---
 
 ## 主从复制高可用的问题

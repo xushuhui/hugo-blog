@@ -10,7 +10,7 @@ hasCJKLanguage =  true
 
 [params]
   author = "徐曙辉"
-  subtitle = "专注于PHP、Java、Go语言(golang)、移动互联网、项目管理、软件架构"
+  subtitle = "专注于PHP、Java、Go语言、移动互联网、软件架构"
   keywords = "golang,go语言,go语言笔记,徐曙辉,java,PHP,博客,项目管理,python,软件架构,公众号,小程序"
   description = "专注于IT互联网，包括但不限于Go语言(golang)、Java、PHP、Python、软件架构等"
   localSearch = true

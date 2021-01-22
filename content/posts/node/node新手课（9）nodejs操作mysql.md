@@ -1,11 +1,11 @@
 ---
-title: node 新手课（9）nodejs 操作 mysql
+title: Node 新手课（9）nodejs 操作 mysql
 date: 2020-03-17 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（9）nodejs 操作 mysql
+## Node 新手课（9）nodejs 操作 mysql
 
 ## 简介
 

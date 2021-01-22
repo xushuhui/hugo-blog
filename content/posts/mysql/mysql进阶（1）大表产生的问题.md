@@ -2,7 +2,7 @@
 title: mysql 进阶（1）大表产生的问题
 top: 1
 date: 2016-05-01 15:00:55
-tags: ["mysql"]
+tags: ["MySQL"]
 categories: [mysql]
 ---
 

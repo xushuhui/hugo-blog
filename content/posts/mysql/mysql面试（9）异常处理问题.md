@@ -3,7 +3,7 @@ title: mysql 面试（9）异常处理问题
 top: 1
 date: 2019-09-19 14:01:43
 tags: ["mysql","面试"]
-categories: ["mysql"]
+categories: ["MySQL"]
 ---
 
 ## 数据库服务器负载过大

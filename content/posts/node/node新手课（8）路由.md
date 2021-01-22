@@ -1,11 +1,11 @@
 ---
-title: node 新手课（8）路由
+title: Node 新手课（8）路由
 date: 2020-03-10 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（8）路由
+## Node 新手课（8）路由
 
 ## 简介
 

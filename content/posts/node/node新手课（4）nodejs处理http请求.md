@@ -1,11 +1,11 @@
 ---
-title: node 新手课（4）nodejs 处理 http 请求
+title: Node 新手课（4）nodejs 处理 http 请求
 date: 2020-02-01 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（4）nodejs 处理 http 请求
+## Node 新手课（4）nodejs 处理 http 请求
 
 ## 简介
 

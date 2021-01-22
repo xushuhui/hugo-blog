@@ -3,7 +3,7 @@ title: mysql 面试（3）服务器配置类问题
 top: 1
 date: 2019-09-20 16:39:30
 tags: ["mysql","面试"]
-categories: ["mysql"]
+categories: ["MySQL"]
 ---
 
 ## SQL_MODE

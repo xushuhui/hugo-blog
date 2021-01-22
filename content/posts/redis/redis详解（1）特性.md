@@ -2,8 +2,8 @@
 title: redis 详解（1）特性
 top: 1
 date: 2018-01-02 14:51:29
-tags: ["redis","NoSQL"]
-categories: ["redis"]
+tags: ["Redis","NoSQL"]
+categories: ["Redis"]
 ---
 
 ## redis 是什么

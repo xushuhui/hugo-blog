@@ -1,11 +1,11 @@
 ---
-title: node 新手课（19）项目打包和部署
+title: Node 新手课（19）项目打包和部署
 date: 2020-06-25 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（19）项目打包和部署
+## Node 新手课（19）项目打包和部署
 
 ## 简介
 

@@ -2,8 +2,8 @@
 title: redis 详解（5）主从复制
 top: 1
 date: 2018-02-20 14:51:29
-tags: ["redis","NoSQL"]
-categories: ["redis"]
+tags: ["Redis","NoSQL"]
+categories: ["Redis"]
 ---
 
 ## 主从复制定义

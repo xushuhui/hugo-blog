@@ -2,8 +2,8 @@
 title: mysql进阶（11）架构之MHA架构
 top: 1
 date: 2019-09-21 17:15:04
-tags: ["mysql"]
-categories: ["mysql"]
+tags: ["MySQL"]
+categories: ["MySQL"]
 ---
 
 ## MHA 架构

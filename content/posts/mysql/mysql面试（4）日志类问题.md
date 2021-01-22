@@ -3,7 +3,7 @@ title: mysql 面试（4）日志类问题
 top: 1
 date: 2019-11-04 10:49:21
 tags: ["mysql","面试"]
-categories: ["mysql"]
+categories: ["MySQL"]
 ---
 
 ## MySQL 常用日志类型

@@ -1,8 +1,8 @@
 ---
-title: PHP7 新特性
+title: PHP 7 新特性
 date: 2016-04-03 09:03:42
-tags: [php]
-categories: ["php"]
+tags: [PHP]
+categories: ["PHP"]
 top: 0
 ---
 

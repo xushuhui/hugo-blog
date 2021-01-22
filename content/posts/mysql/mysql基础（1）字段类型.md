@@ -2,8 +2,8 @@
 title: mysql 基础（1）字段类型
 top: 1
 date: 2019-08-10 16:35:38
-tags: ["mysql"]
-categories: ["mysql"]
+tags: ["MySQL"]
+categories: ["MySQL"]
 ---
 
 ## 字符串类型

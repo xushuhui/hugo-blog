@@ -1,8 +1,8 @@
 ---
 title: "redis 核心技术（2）数据结构"
 date: 2020-09-10T15:53:33+08:00
-tags: ["redis","NoSQL"]
-categories: ["redis"]
+tags: ["Redis","NoSQL"]
+categories: ["Redis"]
 ---
 
 ## 数据结构

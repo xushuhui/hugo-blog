@@ -1,11 +1,11 @@
 ---
-title: node 新手课（17）点赞
+title: Node 新手课（17）点赞
 date: 2020-06-08 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（17）点赞
+## Node 新手课（17）点赞
 
 ## 简介
 

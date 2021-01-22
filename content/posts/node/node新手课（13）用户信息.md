@@ -1,8 +1,8 @@
 ---
-title: node 新手课（13）用户信息
+title: Node 新手课（13）用户信息
 date: 2020-05-01 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
 ## 简介

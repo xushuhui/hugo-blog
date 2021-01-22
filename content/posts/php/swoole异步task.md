@@ -1,8 +1,8 @@
 ---
 title: swoole 异步 task
 date: 2017-03-29 14:41:35
-tags: [swoole]
-categories: ["php"]
+tags: [PHP]
+categories: ["PHP"]
 
 ---
 

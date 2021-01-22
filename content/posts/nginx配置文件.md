@@ -1,8 +1,8 @@
 ---
-title: nginx 配置文件
+title: Nginx 配置文件
 date: 2019-04-03 09:40:29
-tags: [nginx]
-categories: ["nginx"]
+tags: [Nginx]
+categories: ["Nginx"]
 
 ---
 

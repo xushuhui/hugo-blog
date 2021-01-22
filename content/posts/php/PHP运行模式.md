@@ -1,8 +1,8 @@
 ---
 title: PHP 运行模式
 date: 2016-03-29 14:52:24
-tags: [php, php-fpm, apache, nginx]
-categories: ["php"]
+tags: [PHP]
+categories: ["PHP"]
 top: 0
 ---
 

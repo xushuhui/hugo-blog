@@ -2,8 +2,8 @@
 title: mysql 进阶（2）影响 mysql 性能的因素 (3)
 top: 1
 date: 2016-05-15 15:55:20
-tags: ["mysql"]
-categories: ["mysql"]
+tags: ["MySQL"]
+categories: ["MySQL"]
 ---
 
 ## MySQL 体系结构

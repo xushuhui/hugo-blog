@@ -3,7 +3,7 @@ title: mysql 面试（1）版本类问题
 top: 1
 date: 2019-09-02 14:53:46
 tags: ["mysql","面试"]
-categories: ["mysql"]
+categories: ["MySQL"]
 ---
 
 ## 各个发行版区别及优缺点

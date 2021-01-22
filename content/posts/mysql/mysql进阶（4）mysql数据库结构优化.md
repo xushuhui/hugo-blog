@@ -2,8 +2,8 @@
 title: mysql 进阶（4）mysql 数据库结构优化
 top: 1
 date: 2016-05-20 15:02:12
-tags: ["mysql"]
-categories: ["mysql"]
+tags: ["MySQL"]
+categories: ["MySQL"]
 draft: true
 ---
 

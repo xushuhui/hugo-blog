@@ -2,8 +2,8 @@
 title: redis 详解（2）API
 top: 1
 date: 2018-01-12 14:51:29
-tags: ["redis","NoSQL"]
-categories: ["redis"]
+tags: ["Redis","NoSQL"]
+categories: ["Redis"]
 ---
 
 ## 通用命令

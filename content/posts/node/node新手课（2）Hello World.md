@@ -1,11 +1,11 @@
 ---
-title: node 新手课（2）Hello World
+title: Node 新手课（2）Hello World
 date: 2020-01-23 07:57:34
-tags: ["node"]
-categories: ["node"]
+tags: ["Node"]
+categories: ["Node"]
 ---
 
-## node 新手课（2）Hello World
+## Node 新手课（2）Hello World
 
 ## 简介
 
