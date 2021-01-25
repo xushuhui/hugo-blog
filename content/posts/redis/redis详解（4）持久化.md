@@ -1,5 +1,5 @@
 ---
-title: redis 详解（4）持久化
+title: Redis 详解（4）持久化
 top: 1
 date: 2018-02-10 14:51:29
 tags: ["Redis","NoSQL"]

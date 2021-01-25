@@ -1,5 +1,5 @@
 ---
-title: redis 详解（5）主从复制
+title: Redis 详解（5）主从复制
 top: 1
 date: 2018-02-20 14:51:29
 tags: ["Redis","NoSQL"]

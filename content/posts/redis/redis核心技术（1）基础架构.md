@@ -1,5 +1,5 @@
 ---
-title: "redis 核心技术（1）基础架构"
+title: "Redis 核心技术（1）基础架构"
 date: 2020-08-10T14:44:08+08:00
 tags: ["Redis","NoSQL"]
 categories: ["Redis"]
