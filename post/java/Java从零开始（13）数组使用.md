@@ -61,3 +61,4 @@ public static int[] reverse(int[] list) {
  二维数组 scores 可以看成一个两行三列的数组。
 
 ## 总结
+在第一章我们学习了搭建Java开发环境，Java基本语法语句，基本数据结构等，下一章我们将正式开始面向对象编程的学习

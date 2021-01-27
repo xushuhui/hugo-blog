@@ -6,5 +6,5 @@ tags: ["Java"]
 categories: ["Java"]
 
 ---
-{{< include "/post/java/加减乘除和变量.md" >}}
+{{< include "/post/java/Java从零开始（4）加减乘除和变量.md" >}}
 

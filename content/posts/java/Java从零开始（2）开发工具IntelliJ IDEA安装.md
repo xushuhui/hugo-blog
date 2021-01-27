@@ -6,4 +6,4 @@ tags: ["Java"]
 categories: ["Java"]
 
 ---
-{{< include "/post/java/开发工具IntelliJ IDEA安装.md" >}}
+{{< include "/post/java/Java从零开始（2）开发工具IntelliJ IDEA安装.md" >}}

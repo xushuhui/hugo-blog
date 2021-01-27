@@ -6,5 +6,5 @@ tags: ["Java"]
 categories: ["Java"]
 
 ---
-{{< include "/post/java/开发环境安装和配置.md" >}}
+{{< include "/post/java/Java从零开始（1）开发环境安装和配置.md" >}}
 

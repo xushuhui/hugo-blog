@@ -6,4 +6,4 @@ tags: ["Java"]
 categories: ["Java"]
 
 ---
-{{< include "/post/java/基本数据类型.md" >}}
+{{< include "/post/java/Java从零开始（5）基本数据类型.md" >}}

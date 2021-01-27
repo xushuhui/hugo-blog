@@ -7,5 +7,5 @@ categories: ["Java"]
 
 ---
 
-{{< include "/post/java/课程介绍.md" >}}
+{{< include "/post/java/Java从零开始（0）课程介绍.md" >}}
 
