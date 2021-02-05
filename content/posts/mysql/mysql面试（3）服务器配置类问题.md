@@ -1,6 +1,6 @@
 ---
 title: mysql 面试（3）服务器配置类问题
-top: 1
+
 date: 2019-09-20 16:39:30
 tags: ["mysql","面试"]
 categories: ["MySQL"]
@@ -52,4 +52,3 @@ categories: ["MySQL"]
 |                | innodb_buffer_pool_size        | 设置 innodb 缓冲池大小，应为系统可用内存的 75%                                                                    |
 |                | innodb_buffer_pool_instances   | Innodb 缓冲池的实例个数，每个实例大小为总缓冲池大小 / 实例个数                                                    |
 |                | innodb_file_per_table          | 设置每个表独立使用一个表空间文件                                                                                  |
-

@@ -1,6 +1,6 @@
 ---
 title: Redis 详解（3）其他功能
-top: 1
+
 date: 2018-01-22 14:51:29
 tags: ["Redis","NoSQL"]
 categories: ["Redis"]

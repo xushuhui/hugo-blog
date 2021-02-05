@@ -1,6 +1,6 @@
 ---
 title: mysql 面试（6）MySQL 架构类问题
-top: 1
+
 date: 2019-11-25 13:28:35
 tags: ["mysql","面试"]
 categories: ["MySQL"]

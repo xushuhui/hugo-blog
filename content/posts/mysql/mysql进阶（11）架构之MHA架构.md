@@ -1,6 +1,6 @@
 ---
-title: mysql进阶（11）架构之MHA架构
-top: 1
+title: mysql 进阶（11）架构之 MHA 架构
+
 date: 2019-09-21 17:15:04
 tags: ["MySQL"]
 categories: ["MySQL"]
@@ -59,5 +59,3 @@ categories: ["MySQL"]
 - 使用基于 GTID 的复制方式
 - 使用一主多从的复制架构
 - 希望更少数据丢失的场景
-
-

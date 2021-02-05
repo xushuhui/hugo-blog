@@ -1,6 +1,6 @@
 ---
 title: mysql 面试（7）备份恢复类问题
-top: 1
+
 date: 2019-09-18 13:51:22
 tags: ["mysql","面试"]
 categories: ["MySQL"]
@@ -85,5 +85,3 @@ categories: ["MySQL"]
   + mysqlbinlog --raw --read-from-remote-server --stop-never --host 备份 ip --port 端口 -u 用户名 -p 密码 启动二进制日志文件名
 
 用户具有 replication slave 权限
-
-

@@ -1,6 +1,6 @@
 ---
-title: mysql进阶（12）架构之MGR架构
-top: 1
+title: mysql 进阶（12）架构之 MGR 架构
+
 date: 2019-09-22 17:15:04
 tags: ["MySQL"]
 categories: ["MySQL"]
@@ -68,4 +68,3 @@ categories: ["MySQL"]
 - 对主从延迟十分敏感的应用场景
 - 希望可以对读写提供高可用的场景
 - 希望可以保证数据强一致的场景
-

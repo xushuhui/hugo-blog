@@ -1,6 +1,6 @@
 ---
-title: mysql进阶（11）架构之MHA架构
-top: 1
+title: mysql 进阶（11）架构之 MHA 架构
+
 date: 2019-09-20 16:13:52
 tags: ["MySQL"]
 categories: ["MySQL"]
@@ -70,5 +70,3 @@ categories: ["MySQL"]
 - 使用基于日志点的主从复制方式
 - 使用主主复制架构
 - 需要考虑读高可用的场景
-
-

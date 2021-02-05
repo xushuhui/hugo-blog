@@ -1,6 +1,6 @@
 ---
 title: mysql 基础（4）执行计划
-top: 1
+
 date: 2019-08-16 11:06:21
 tags: ["MySQL"]
 categories: ["MySQL"]

@@ -1,6 +1,6 @@
 ---
 title: mysql 基础（3）事务
-top: 1
+
 date: 2019-08-12 11:18:32
 tags: ["MySQL"]
 categories: ["MySQL"]

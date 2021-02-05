@@ -1,6 +1,6 @@
 ---
 title: mysql 面试（1）版本类问题
-top: 1
+
 date: 2019-09-02 14:53:46
 tags: ["mysql","面试"]
 categories: ["MySQL"]

@@ -1,6 +1,6 @@
 ---
 title: mysql 基础（5）索引
-top: 1
+
 date: 2019-08-17 18:01:44
 tags: ["MySQL"]
 categories: ["MySQL"]

@@ -1,6 +1,6 @@
 ---
 title: mysql 面试（8）管理及监控类问题
-top: 1
+
 date: 2019-09-18T13:52:54.000Z
 tags: ["mysql","面试"]
 categories: [mysql]
@@ -96,5 +96,3 @@ SELECT waiting_pid AS '被阻塞线程',waiting_query AS '被阻塞 SQL',blockin
 ## 监控主从状态
 
 - show slave status (Slave_IO_Running,Slave_SQL_Running,Last_Errno,Last_Error)
-
-

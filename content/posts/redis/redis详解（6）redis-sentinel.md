@@ -1,6 +1,6 @@
 ---
 title: Redis 详解（6）redis sentinel
-top: 1
+
 date: 2018-03-12 14:51:29
 tags: ["redis", "NoSQL"]
 categories: ["Redis"]

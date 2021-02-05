@@ -1,6 +1,6 @@
 ---
 title: mysql 进阶（2）影响 mysql 性能的因素 (4)
-top: 1
+
 date: 2016-05-17 15:55:20
 tags: ["MySQL"]
 categories: ["MySQL"]
