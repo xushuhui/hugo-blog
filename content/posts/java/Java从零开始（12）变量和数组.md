@@ -1,6 +1,6 @@
 ---
 title: Java 从零开始（12）变量和数组
-
+draft: true
 date: 2016-04-01 11:06:19
 tags: ["Java"]
 categories: ["Java"]

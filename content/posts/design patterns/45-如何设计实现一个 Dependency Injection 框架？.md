@@ -1,6 +1,5 @@
 ---
-title: 32-如何设计实现一个 Dependency Injection 框架？
-
+title: 45-如何设计实现一个 Dependency Injection 框架？
 date: 2016-08-02 16:05:05
 tags: ["设计模式"]
 categories: ["设计模式"]

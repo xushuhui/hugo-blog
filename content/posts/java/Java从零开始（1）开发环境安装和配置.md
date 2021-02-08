@@ -1,9 +1,9 @@
 ---
 title: Java 从零开始（1）开发环境安装和配置
-
 date: 2017-02-10 16:06:19
 tags: ["Java"]
 categories: ["Java"]
+draft: true
 ---
 
 ## Java 能做什么
