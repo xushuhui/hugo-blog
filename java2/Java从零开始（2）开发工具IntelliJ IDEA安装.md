@@ -1,10 +1,3 @@
----
-title: Java 从零开始（2）开发工具 IntelliJ IDEA 安装
-draft: true
-date: 2017-02-15 16:06:19
-tags: ["Java"]
-categories: ["Java"]
----
 
 ## 前言
 

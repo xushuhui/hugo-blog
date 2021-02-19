@@ -7,9 +7,7 @@ categories: ["Java"]
 
 ---
 
-## 思考
 
-* 如何保存多年成绩
 
 ## 处理数组
 
@@ -68,6 +66,10 @@ public static int[] reverse(int[] list) {
 ```
 
  二维数组 scores 可以看成一个两行三列的数组。
+
+## 思考
+
+* 如何保存多年成绩
 
 ## 总结
 
