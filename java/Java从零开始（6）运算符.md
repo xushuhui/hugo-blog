@@ -9,19 +9,18 @@ categories: ["Java"]
 
 ## 前言
 
-* 运算符对一个或者多个值进行运算并得出一个运算结果。 - 运算符的运算结果类型有的是固定的，有时候会根据被计 算的值变化。比如两个 int 相加，结果的类型就是 int. 两 个 byte 相加，返回值的类型就是 byte
-
+* 运算符对一个或者多个值进行运算并得出一个运算结果。 
+* 运算符的运算结果类型有的是固定的，有时候会根据被计算的值变化。比如两个 int 相加，结果的类型就是 int. 两 个 byte 相加，返回值的类型就是 byte
 * 混淆点：除赋值运算符外，运算符本身不会更改变量的值
 
 ### 取模运算符 %
 
 * 用来计算余数
 
-*  负数也可以被取模
+* 负数也可以被取模
 
 * 小数也可以取模
 
- 整数的除法运算
 
 > int 除以 int 还是 int，不会变成浮点数
 
@@ -96,7 +95,7 @@ public class BooleanOprt {
 
 小括号运算符内可以包含任何运算符，决定运算符的顺序
 
-```
+```Java
 public class ParentOprt {
     public static void main(String[] args) {
         int a = 10;
@@ -120,7 +119,7 @@ public class ParentOprt {
 8. &&, &, ||, |
 9. =
 
-```
+```Java
 public class PriorityExample {
     public static void main(String[] args) {
         int a = 1 + 3;
@@ -162,7 +161,7 @@ public class PriorityExample {
 * 按位取反：~
 * 掩码（MASK）
 
-```
+```Java
 public class BitCalc {
     public static void main(String[] args) {
         int a = 0xF8;
@@ -183,7 +182,7 @@ public class BitCalc {
 * \>>>：符号位一起右移，左边补 0，又称无符号右移
 * <<：左移，右边补 0。左移没有带符号位一说，因为符号位在最左侧
 
-```
+```Java
 public class BitShift {
     public static void main(String[] args) {
         int a = 0x400;
