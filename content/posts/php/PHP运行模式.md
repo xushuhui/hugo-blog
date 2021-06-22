@@ -90,6 +90,6 @@ apache2handler
 
 ## 欢迎扫描下方二维码，[个人博客](https://www.phpst.cn)，持续关注：
 
-![](/qrcode.jpg)
+
 
 互联网工程师（id:phpstcn），我们一起学习，一起进步
