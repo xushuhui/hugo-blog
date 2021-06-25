@@ -1,8 +1,0 @@
----
-title: http 协议（6）HTTPS
-
-date: 2016-08-02 16:05:05
-tags: ["HTTP","网络协议","编程基础"]
-categories: ["HTTP"]
-draft: true
----
