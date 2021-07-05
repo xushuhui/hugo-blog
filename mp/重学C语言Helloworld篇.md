@@ -154,4 +154,5 @@ return 0;
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-> 公众号点击"联系我们"或者输入关键字"微信"加好友深入交流，解答问题。
+> 加好友深入交流，解答问题。
+

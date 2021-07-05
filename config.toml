@@ -1,6 +1,6 @@
 baseURL = "http://blog.phpst.cn"
 languageCode = "zh-CN"
-title = "老徐说"
+title = "徐曙辉个人博客"
 theme = "maupassant"
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
@@ -11,8 +11,8 @@ hasCJKLanguage =  true
 [params]
   author = "徐曙辉"
   subtitle = "专注于PHP、Java、Go语言、移动互联网、软件架构"
-  keywords = "golang,go语言,go语言笔记,徐曙辉,java,PHP,博客,项目管理,python,软件架构,公众号,小程序"
-  description = "专注于IT互联网，包括但不限于Go语言(golang)、Java、PHP、Python、软件架构等"
+  keywords = "Golang,Go语言,Go语言笔记,徐曙辉,Java,PHP,博客,项目管理,Python,软件架构,公众号,小程序"
+  description = "专注于IT互联网，包括但不限于Go语言(Golang)、Java、PHP、Python、软件架构等"
   localSearch = true
 [menu]
   [[menu.main]]
